@@ -1,0 +1,8 @@
+#script to print information of who is currently logged in , date & time
+clear
+echo "Hello user"
+echo "Today is \c";date
+echo "Number of user login : \c";who | wc -l
+echo "Calender"
+cal
+exit 0
